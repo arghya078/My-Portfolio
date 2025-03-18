@@ -35,12 +35,12 @@ const Header = () => {
             initial={{y:30, opacity:0}}
             whileInView={{y:0, opacity:1}}
             transition={{duration:0.6, delay:1}} 
-            href="#contact" className='px-10 py-3 border rounded-full border-white bg-black text-white flex items-center gap-2'>Contact me <Image src={assets.right_arrow_white} alt="arrow icon" className='w-4' /></motion.a>
+            href="#contact" className='px-10 py-3 border rounded-full border-white bg-black text-white flex items-center gap-2 hover:bg-rose-500 hover:text-black'>Contact me <Image src={assets.right_arrow_white} alt="arrow icon" className='w-4' /></motion.a>
             <motion.a 
             initial={{y:30, opacity:0}}
             whileInView={{y:0, opacity:1}}
             transition={{duration:0.6, delay:1.2}}
-            href="/Arghya_Cv.pdf" download className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2'>My Resume <Image src={assets.download_icon} alt="download icon" className='w-4' /></motion.a>
+            href="/Arghya_Cv.pdf" download className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 hover:bg-gray-200'>My Resume <Image src={assets.download_icon} alt="download icon" className='w-4' /></motion.a>
         </div>
     </div>
   )

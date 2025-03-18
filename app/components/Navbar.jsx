@@ -42,7 +42,7 @@ const Navbar = () => {
 
         <div className='flex items-center gap-4'>
 
-           <a href="#contact" className='hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-4'>Contact Me <Image src={assets.arrow_icon} alt="arrow icon" className='w-3' /></a>
+           <a href="#contact" className='hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-4 hover:bg-rose-50'>Contact Me <Image src={assets.arrow_icon} alt="arrow icon" className='w-3' /></a>
 
            <button className='md:hidden block ml-3' onClick={openSideMenu}>
             <Image src={assets.menu_black} alt="menu icon" className='w-6' />
